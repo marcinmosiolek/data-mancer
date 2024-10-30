@@ -38,7 +38,7 @@ The code serves as a detailed record of the data scientist’s reasoning. Howeve
 
 The overall workflow of the agents making a data scientist could be explained by the following graph:
 
-<img src="img/DataScientist-Flow.png" style="display: block; margin: auto; max-width: 700px; height: auto;">
+<img src="img/DataScientist-Flow.png" style="display: block; margin: auto; width: 700; height: auto;">
 
 
 
@@ -183,7 +183,7 @@ Footwear at 14.22%, Men's Apparel at 13.75%, and Women's Athletic Footwear at 11
 ## Putting it all together
 In conclusion, the architecture of the entire system is as follows
 
-<img src="img/EntireSystem-Flow.png" style="display: block; margin: auto; max-height: 700px; height: auto;"">
+<img src="img/EntireSystem-Flow.png" style="display: block; margin: auto; height: 700; width: auto;">
 
 
 ## Installation & Running
