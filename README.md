@@ -1,6 +1,6 @@
-# DataMancer: Multi-Agent Data Analysis
+# DataMancer: Multiple Agent Data Analysis
 
-Large language models, like GPT, have made remarkable strides in handling tabular data and performing analysis tasks. Despite their impressive capabilities, these models still face challenges, such as hallucinations and limitations in processing truly massive datasets. However, by using a multi-agent approach, you can harness AI’s power even for large-scale data analysis. In this post, I’ll introduce you to the concept of multi-agent systems through a toy project I recently built. Let’s explore together how multiple AI agents can work together to overcome these challenges and unlock new possibilities in data analysis.
+Large language models, like GPT, have made remarkable strides in handling tabular data and performing analysis tasks. Despite their impressive capabilities, these models still face challenges, such as hallucinations and limitations in processing truly massive datasets. However, by using a multi and muliple-agent approach, you can harness AI’s power even for large-scale data analysis. In this post, I’ll introduce you to the concept of multiple-agent systems through a toy project I recently built. Let’s explore together how multiple AI agents can work together to overcome these challenges and unlock new possibilities in data analysis.
 
 
 To make you excited let me show what the result system is capable of. Here is a youtube video:
@@ -10,12 +10,12 @@ To make you excited let me show what the result system is capable of. Here is a 
 </a>
 
 
-## What are multi-agent system?
+## What are multi and multiple-agent system?
 
-A multi-agent system (MAS) consists of several autonomous agents that work together to achieve common goals. Each agent operates independently but can communicate and collaborate to solve more complex tasks.  MAS can be particularly advantageous for complex problems, where distributing tasks among multiple specialized agents with access to specific tools leads to robust and reliable solutions.
+In a multi-agent system, agents cooperate and communicate to achieve shared or individual goals, coordinating actions to achieve overall goal. Conversely, a multiple-agent system involves agents working more independently with limited interaction, each focused on localised objectives rather than a unified goal. Such systems can be particularly advantageous for complex problems, where distributing tasks among multiple specialised agents with access to specific tools leads to robust and reliable solutions.
 
-## How to build a MAS system?
-Multi-Agent Systems (MAS) are among today’s hottest topics, supported by frameworks like OpenAI Swarm and LangGraph. The core component of these systems is an LLM capable of reasoning and tool-calling, which often requires a more advanced model. For instance, according to LLama documentation, the smallest model meeting these criteria is 8B, though a 70B model is recommended for greater reliability. However, tool-calling is not always essential if workflow paths are carefully designed with respect to specific use case.
+## How to build a multile agent system?
+Multiple-Agent Systems are among today’s hottest topics, supported by frameworks like OpenAI Swarm and LangGraph. The core component of these systems is an LLM capable of reasoning and tool-calling, which often requires a more advanced model. For instance, according to LLama documentation, the smallest model meeting these criteria is 8B, though a 70B model is recommended for greater reliability. However, tool-calling is not always essential if workflow paths are carefully designed with respect to specific use case.
 
 In this project, I used LangGraph and OpenAI to expedite development and leverage existing LLM APIs rather than setting up my own infrastructure. Exploring and evaluating different models could also be an interesting exercise for assessing performance. Moreover for the user interface part, I rely on ChainLit.
 
@@ -205,6 +205,6 @@ chainlit run app.py
 ```
 
 ## Conclusions
-The system presented here is a great starting point for experimenting with multi-agent systems in data analysis. However, it’s not yet mature enough to be considered a production-ready tool. Both the prompts and agents have limitations in their current capabilities. Still, this setup offers a promising glimpse into what could be possible with further development and as more advanced iterations of large language models emerge. 
+The system presented here is a great starting point for experimenting with multiple-agent systems in data analysis. However, it’s not yet mature enough to be considered a production-ready tool. Both the prompts and agents have limitations in their current capabilities. Still, this setup offers a promising glimpse into what could be possible with further development and as more advanced iterations of large language models emerge. 
 
 Feel free to contribute to this project and make it the open-source tool of choice for data analysis!
