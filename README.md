@@ -195,6 +195,10 @@ And install the dependencies
 ```bash
 pip install -r requirements
 ```
+Export your OPENAI_API_KEY
+```
+export OPENAI_API_KEY=place your key here
+```
 Then you can simply run the app. It will open the browser with the chatbot window.
 ```bash
 chainlit run app.py
