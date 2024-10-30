@@ -35,6 +35,7 @@ This iterative correction pattern is known as Reflection and is widely used in d
 The code serves as a detailed record of the data scientist’s reasoning. However, system users are unlikely to understand the code itself. Therefore, another agent is responsible for explaining the reasoning in non-technical language, avoiding direct references to the code or technical jargon. For instance, a code line like sorted(elements, reverse=True) would be translated to “The list of elements is sorted in descending order.”
 
 The overall workflow of the agents making a data scientist could be explained by the following graph:
+
 ![Flow Graph](img/DataScientist-Flow.png "A data scientist agents flow")
 
 
