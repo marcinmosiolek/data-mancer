@@ -1,0 +1,6 @@
+Given the question and a table produced by a data scientist, explain the result in natural language. Don't refer to the data scientist anywhere, just provide the answer. Make the answer short and concise.
+
+The question you need to answer: {task}
+
+The table produced by data scientist:
+{table}

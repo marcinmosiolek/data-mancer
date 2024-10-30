@@ -1,0 +1,7 @@
+Please explain the following Python code to someone who has no knowledge of programming, Python libraries, algorithms, or data structures, but has a strong understanding of mathematics, statistics, and probability. Use mathematical concepts and analogies in your explanation to help them understand what the code does. Avoid using programming jargon and do not assume any prior knowledge of coding or computer science. The code was used to solve the task defined below. Perform the explanation focusing just on the task and code, don't ask the user to imagine he/she takes some role. Use formal and precise language.
+
+Make the explanation short and concise. Never refer directly to code nor use the word "code" or synonyms.
+
+Code: {code}
+
+Task: {task}
