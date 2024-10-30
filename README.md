@@ -38,7 +38,7 @@ The code serves as a detailed record of the data scientist’s reasoning. Howeve
 
 The overall workflow of the agents making a data scientist could be explained by the following graph:
 
-<img src="img/DataScientist-Flow.png" width="500">
+<img src="img/DataScientist-Flow.png" width="700">
 
 
 
