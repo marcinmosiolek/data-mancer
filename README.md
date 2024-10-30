@@ -3,9 +3,11 @@
 Large language models, like GPT, have made remarkable strides in handling tabular data and performing analysis tasks. Despite their impressive capabilities, these models still face challenges, such as hallucinations and limitations in processing truly massive datasets. However, by using a multi-agent approach, you can harness AI’s power even for large-scale data analysis. In this post, I’ll introduce you to the concept of multi-agent systems through a toy project I recently built. Let’s explore together how multiple AI agents can work together to overcome these challenges and unlock new possibilities in data analysis.
 
 
-To make you excited let me show what the result system is capable of. Also all the code is availabe at: https://github.com/neuronow/data-mancer. Feel free to play with it.
+To make you excited let me show what the result system is capable of. Here is a youtube video:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=tSfRsjB79YA)
+<a href="https://www.youtube.com/watch?v=tSfRsjB79YA">
+<img src="img/youtube.png" height="50">
+</a>
 
 
 ## What are multi-agent system?
@@ -181,7 +183,7 @@ Footwear at 14.22%, Men's Apparel at 13.75%, and Women's Athletic Footwear at 11
 ## Putting it all together
 In conclusion, the architecture of the entire system is as follows
 
-![Flow Graph](img/EntireSystem-Flow.png "A data scientist agents flow")
+<img src="img/EntireSystem-Flow.png" height="500">
 
 
 ## Installation & Running
