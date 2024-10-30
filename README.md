@@ -1,4 +1,4 @@
-# DataMancer: Multiple-Agent Data Analysis
+# DataMancer: Multi-Agent Data Analysis
 
 Large language models, like GPT, have made remarkable strides in handling tabular data and performing analysis tasks. Despite their impressive capabilities, these models still face challenges, such as hallucinations and limitations in processing truly massive datasets. However, by using a multi-agent approach, you can harness AI’s power even for large-scale data analysis. In this post, I’ll introduce you to the concept of multi-agent systems through a toy project I recently built. Let’s explore together how multiple AI agents can work together to overcome these challenges and unlock new possibilities in data analysis.
 
